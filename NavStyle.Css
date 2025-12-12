@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'peaberry';
+    src: url(Peaberry-Base.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar{
+    background: midnightblue; 
+    font-family: 'peaberry'; 
+    padding-right: 15px; 
+    padding-left: 15px;
+    z-index: 10;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+.text-1{
+    color: lime;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.text-2{
+    color: rgb(178, 33, 235);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.text-3{
+    color: rgb(245, 24, 134);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.text-4{
+    color: rgb(0, 247, 255);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-9">
+        <meta http-equiv="X-UA-Compatbible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Demon's Den</title>
+        <link rel="stylesheet" href="ProjectGallery/CrabStyle.css">
+        <link rel="stylesheet" href="NavStyle.css">
+        <script src="ProjectGallery/CrabScript.JS" defer></script> 
+    </head>
+
+    <body background="ProjectGallery/Arcade Pattern.png" height="1715px" width="1440" id="body"> <!--sets the overall background for the page-->
+        
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="LandingPage.html">The Demon's Den</a></div>
+                    <ul>
+                        <li><a href="ProjectGallery.html" class="text-1">Project Gallery</a></li>
+                        <li><a href="Shop.html" class="text-2">Shop</a></li>
+                        <li><a href="ArtGallery.html" class="text-3">Art Gallery</a></li>
+                        <li><a href="BlogForumSelect.html" class="text-4">Blog and Forum</a></li>
+                    </ul>
+            </div>
+         </nav>
+
+        <div id="overlay" >
+            <div id="inside-overlay">
+                <a href="#">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext" onclick="off()">Exit</div>
+                            <img src="ProjectGallery/CrabStartFull.png" height="544" width="967">
+                            <div class="text">The start screen to Crabtastrophe a simple pseudo horror game</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"onclick="off()">Exit</div>
+                            <img src="ProjectGallery/CrabGameplay.png"  height="544" width="967">
+                            <div class="text">The goal was to catch at least a certain amount of fish with key prompts</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"onclick="off()">Exit</div>
+                            <img src="ProjectGallery/CrabAttackPic.png" height="544" width="967">
+                            <div class="text">If you failed a key prompt event you'd get attacked, get attacked 3 times and the game was over</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <br>
+                        <div class="btn">
+                        
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="btn-2" onclick="on()">
+                <img src="ProjectGallery/CrabStart.png" class="behind">
+                <style>
+                    .behind{
+                        position: absolute;
+                        transform: translate(480px,650px);
+                        z-index: 2;
+                    }
+                </style>
+                <img src="ProjectGallery/Arcade-Crabtastrophe-Zoomin-Blank.png" height="1543" width="966" class="center2"/>  
+                <style>
+                .center2{
+                    position: absolute;
+                    display: block;
+                    transform: translate(385px,170px);
+                    z-index: 3;
+                    }
+                </style>    
+            </div>
+        </div>
+
+        <a href="ProjectGallery/ProjectGallery.html">
+            <img src="ArrowDown.png" class="arrow" height="150" width="150">
+            <style>
+                .arrow{
+                    z-index: 4;
+                    transform: rotate(180deg);
+                    transform: translate(800px,1550px);
+                    position: absolute;
+                }
+            </style>  
+        </a>
+
+
+          
+    
+            <img src="ProjectGallery/ArcadeBg.png" alt="Image" height="1715px" width="966" class="center"/> <!--sets the secondary background-->
+            <style>
+                .center{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            </style>
+    </body>
+</html>

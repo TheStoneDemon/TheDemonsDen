@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-9">
+        <meta http-equiv="X-UA-Compatbible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Demon's Den</title>
+        <link rel="stylesheet" href="ArtGallery/CLStyle.css">
+        <link rel="stylesheet" href="NavStyle.Css">
+        <script src="ArtGallery/CLScript.JS" defer></script> 
+
+    </head>
+
+    <body background="ArtGallery/Arcade Pattern.png" height="1715px" width="1440" id="body"> <!--sets the overall background for the page-->
+        
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="LandingPage.html">The Demon's Den</a></div>
+                    <ul>
+                        <li><a href="ProjectGallery.html" class="text-1">Project Gallery</a></li>
+                        <li><a href="Shop.html" class="text-2">Shop</a></li>
+                        <li><a href="ArtGallery.html" class="text-3">Art Gallery</a></li>
+                        <li><a href="BlogForumSelect.html" class="text-4">Blog and Forum</a></li>
+                    </ul>
+            </div>
+         </nav>
+        
+        <div id="overlay" >
+            <div id="inside-overlay">
+                <a href="#">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext" onclick="off()">Exit</div>
+                            <img src="ArtGallery/CherryLimeade-Vanilla.png" height="1000" width="700">
+                            <div class="text">The base version of Cherry Limeade, lovingly nicknamed the “Vanilla” Flavor</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"onclick="off()">Exit</div>
+                            <img src="ArtGallery/CherryLimeade-Blueraspberry.png"  height="1000" width="700">
+                            <div class="text-b">A blue exclusion layer was placed over the original to make this “blue raspberry” variant</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"onclick="off()">Exit</div>
+                            <img src="ArtGallery/CherryLimeade-Cola.png" height="1000" width="700">
+                            <div class="text-b">This variant simply changes the background color giving it a more night-time feel. It’s color scheme granted it the title “Cola” flavor</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext"onclick="off()">Exit</div>
+                            <img src="ArtGallery/CherryLimeade-Mint.png" height="1000" width="700">
+                            <div class="text">In order to coat the entire piece in this minty green color, a tealish green hue layer was applied giving it the fitting flavor of “Mint”</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext"onclick="off()">Exit</div>
+                            <img src="ArtGallery/CherryLimeade-Expired.png" height="1000" width="700">
+                            <div class="text">A highly desaturated layer gives this version a more vintage feel giving it the name "expired"</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext"onclick="off()">Exit</div>
+                            <img src="ArtGallery/CherryLimeade-Grapefruit.png" height="1000" width="700">
+                            <div class="text">a color swapped variant with orange and pink, named "Grapefruit"</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext"onclick="off()">Exit</div>
+                            <img src="ArtGallery/CherryLimeade-Sketch.JPG" height="1000" width="700">
+                            <div class="text">the original sketch for the piece, doodled whilst bored in a class and inspiring the whole series</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <br>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="btn-2" onclick="on()">
+                <img src="ArtGallery/CLComicOpen.png" height="1543" width="966" class="center2"/>  
+                <style>
+                .center2{
+                    position: absolute;
+                    display: block;
+                    transform: translate(360px,100px);
+                    z-index: 3;
+                    }
+                </style>    
+            </div>
+        </div>
+
+
+        <a href="ArtGallery.html">
+            <img src="ArtGallery/ArrowDown.png" class="arrow" height="150" width="150">
+            <style>
+                .arrow{
+                    transform: rotate(180deg);
+                    transform: translate(800px,1550px);
+                    position: absolute;
+                }
+            </style>  
+        </a>
+
+
+          
+    
+            <img src="ArtGallery/Comic-BG.png" alt="Image" height="1715px" width="966" class="center"/> <!--sets the secondary background-->
+            <style>
+                .center{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            </style>
+    </body>
+</html>
